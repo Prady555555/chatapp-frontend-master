@@ -28,7 +28,7 @@ import { useErrors } from "../../hooks/hook";
 
 const Dashboard = () => {
   const { loading, data, error } = useFetchData(
-    `${server}/api/v1/admin/stats`,
+    `${server}api/v1/admin/stats`,
     "dashboard-stats"
   );
 

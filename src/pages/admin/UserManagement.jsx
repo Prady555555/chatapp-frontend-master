@@ -51,7 +51,7 @@ const columns = [
 ];
 const UserManagement = () => {
   const { loading, data, error } = useFetchData(
-    `${server}/api/v1/admin/users`,
+    `${server}api/v1/admin/users`,
     "dashboard-users"
   );
 
